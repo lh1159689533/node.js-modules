@@ -23,21 +23,21 @@
 
 ### Array
 
-* [is-sorted](https://github.com/dcousens/is-sorted) - 用于检查数组是否排序的小模块.
-* [array-first](https://github.com/jonschlinkert/array-first) - 获取数组的第一个元素或第n个元素.
-* [array-last](https://github.com/jonschlinkert/array-last) - 返回数组中的最后一个元素.
-* [arr-flatten](https://github.com/jonschlinkert/arr-flatten) - 递归地平展一个或多个数组.
+* [is-sorted](https://github.com/dcousens/is-sorted) - 用于检查数组是否排序.
+* [array-first](https://github.com/jonschlinkert/array-first) - 获取数组中前n个元素.
+* [array-last](https://github.com/jonschlinkert/array-last) - 获取数组中后n个元素.
+* [arr-flatten](https://github.com/jonschlinkert/arr-flatten) - 展开一个嵌套数组.
 * [dedupe](https://github.com/seriousManual/dedupe) - 从数组中删除重复项.
 * [array-range](https://github.com/mattdesl/array-range) - 创建一个给定范围的数组.
 * [arr-diff](https://github.com/jonschlinkert/arr-diff) - 通过严格的比较从第一个数组中排除附加数组中的所有值并返回.
-* [filled-array](https://github.com/sindresorhus/filled-array) - 返回一个用指定输入值填充的数组
-* [map-array](https://github.com/parro-it/map-array) - 将对象的键和值映射到数组中.
-* [in-array](https://github.com/jonschlinkert/in-array) - 若传递的所有值在数组中则返回true - 比indexOf更高效.
+* [filled-array](https://github.com/sindresorhus/filled-array) - 返回一个用指定值填充的指定长度的数组
+* [map-array](https://github.com/parro-it/map-array) - 将对象的键和值以'key value'的格式映射到数组中.
+* [in-array](https://github.com/jonschlinkert/in-array) - 若传递的值在数组中则返回true - 比indexOf更高效.
 * [unordered-array-remove](https://github.com/mafintosh/unordered-array-remove) - 有效地从无序数组中删除元素，而不需要执行拼接.
-* [array-swap](https://github.com/michaelzoidl/swap-array) - 交换数组中两项的位置.
+* [array-swap](https://github.com/michaelzoidl/swap-array) - 交换数组中两项的位置(有错误一处).
 * [mirrarray](https://github.com/johnwquarles/mirrarray) - 从有效键数组创建keymirror对象.
 * [group-array](https://github.com/doowb/group-array) - 将对象数组分组到列表中.
-* [array.chunk](https://github.com/zhiyelee/array.chunk) - 将array/TypedArray分割为指定大小的块.
+* [array.chunk](https://github.com/zhiyelee/array.chunk) - 将array/TypedArray分割为指定大小的子数组.
 
 ### String
 
