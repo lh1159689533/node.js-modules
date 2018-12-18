@@ -1,58 +1,58 @@
-# Awesome Micro npm Packages [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# 很棒的微npm包 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> A curated list of small, focused Node.js modules.
+> 一个小的、集中的node.js模块列表.
 
-*Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.*
+*受启发于 [awesome](https://github.com/sindresorhus/awesome) .*
 
 
 ## Articles
 
 * [One-line node modules](https://github.com/sindresorhus/ama/issues/10)
-* [Build small single purpose modules](http://thenodeway.io/introduction/#build-small-single-purpose-modules)
-* [Module best practices](https://github.com/mattdesl/module-best-practices)
-* [Evaluating Packages Part 1 - Turn to community](http://bytearcher.com/articles/evaluating-packages-1-check-community/) 
-* [Evaluating Packages Part 2 - Review repository](http://bytearcher.com/articles/evaluating-packages-2-review-repository/)
+* [构建小型的单一用途模块](http://thenodeway.io/introduction/#build-small-single-purpose-modules)
+* [模块的最佳实践](https://github.com/mattdesl/module-best-practices)
+* [评估包 Part 1 - Turn to community](http://bytearcher.com/articles/evaluating-packages-1-check-community/) 
+* [评估包 Part 2 - Review repository](http://bytearcher.com/articles/evaluating-packages-2-review-repository/)
 * [Small modules: it’s not quite that simple](https://medium.com/@Rich_Harris/small-modules-it-s-not-quite-that-simple-3ca532d65de4)
-* [Hyper Modular Packages: A Crazy Cult or a Reasonable Practice?](http://thefullstack.xyz/hyper-modular-packages-a-crazy-cult-or-a-reasonable-practice/)
+* [高度模块化的包: A Crazy Cult or a Reasonable Practice?](http://thefullstack.xyz/hyper-modular-packages-a-crazy-cult-or-a-reasonable-practice/)
 * [In Defense of Hyper Modular JavaScript](https://medium.freecodecamp.com/in-defense-of-hyper-modular-javascript-33934c79e113)
-* [Tiny npm package: Guidelines to create a Node.js module following the small package philosophy](http://g14n.info/2015/12/tiny-npm-package/)
-* [The cost of small modules](https://nolanlawson.com/2016/08/15/the-cost-of-small-modules/)
-* [Why I think "micro-packages" are a good thing.](http://codetunnel.io/why-i-think-micro-packages-are-a-good-thing/)
+* [小npm包: 创建遵循小程序包思想的node.js模块](http://g14n.info/2015/12/tiny-npm-package/)
+* [小模块的成本](https://nolanlawson.com/2016/08/15/the-cost-of-small-modules/)
+* [为什么我认为“微包”是一件好事.](http://codetunnel.io/why-i-think-micro-packages-are-a-good-thing/)
 
 ## Modules
 
 ### Array
 
-* [is-sorted](https://github.com/dcousens/is-sorted) - A small module to check if an Array is sorted.
-* [array-first](https://github.com/jonschlinkert/array-first) - Get the first element or first n elements of an array.
-* [array-last](https://github.com/jonschlinkert/array-last) - Return the last element in an array.
-* [arr-flatten](https://github.com/jonschlinkert/arr-flatten) - Recursively flatten an array or arrays.
-* [dedupe](https://github.com/seriousManual/dedupe) - Remove duplicates from an array.
-* [array-range](https://github.com/mattdesl/array-range) - Creates a new array with given range.
-* [arr-diff](https://github.com/jonschlinkert/arr-diff) - Returns an array with only the unique values from the first array, by excluding all values from additional arrays using strict equality for comparisons.
-* [filled-array](https://github.com/sindresorhus/filled-array) - Returns an array filled with the specified input
-* [map-array](https://github.com/parro-it/map-array) - Map object keys and values into an array.
-* [in-array](https://github.com/jonschlinkert/in-array) - Return true if any of passed values exists in array - faster than using indexOf.
-* [unordered-array-remove](https://github.com/mafintosh/unordered-array-remove) - Efficiently remove an element from an unordered array without doing a splice.
-* [array-swap](https://github.com/michaelzoidl/swap-array) - Swap position of two items in an array.
-* [mirrarray](https://github.com/johnwquarles/mirrarray) - Creates a keymirror object from an array of valid keys.
-* [group-array](https://github.com/doowb/group-array) - Group array of objects into lists.
-* [array.chunk](https://github.com/zhiyelee/array.chunk) - Split array/TypedArray to chunks of given size.
+* [is-sorted](https://github.com/dcousens/is-sorted) - 用于检查数组是否排序的小模块.
+* [array-first](https://github.com/jonschlinkert/array-first) - 获取数组的第一个元素或第n个元素.
+* [array-last](https://github.com/jonschlinkert/array-last) - 返回数组中的最后一个元素.
+* [arr-flatten](https://github.com/jonschlinkert/arr-flatten) - 递归地平展一个或多个数组.
+* [dedupe](https://github.com/seriousManual/dedupe) - 从数组中删除重复项.
+* [array-range](https://github.com/mattdesl/array-range) - 创建一个给定范围的数组.
+* [arr-diff](https://github.com/jonschlinkert/arr-diff) - 通过严格的比较从第一个数组中排除附加数组中的所有值并返回.
+* [filled-array](https://github.com/sindresorhus/filled-array) - 返回一个用指定输入值填充的数组
+* [map-array](https://github.com/parro-it/map-array) - 将对象的键和值映射到数组中.
+* [in-array](https://github.com/jonschlinkert/in-array) - 若传递的所有值在数组中则返回true - 比indexOf更高效.
+* [unordered-array-remove](https://github.com/mafintosh/unordered-array-remove) - 有效地从无序数组中删除元素，而不需要执行拼接.
+* [array-swap](https://github.com/michaelzoidl/swap-array) - 交换数组中两项的位置.
+* [mirrarray](https://github.com/johnwquarles/mirrarray) - 从有效键数组创建keymirror对象.
+* [group-array](https://github.com/doowb/group-array) - 将对象数组分组到列表中.
+* [array.chunk](https://github.com/zhiyelee/array.chunk) - 将array/TypedArray分割为指定大小的块.
 
 ### String
 
-* [decamelize](https://github.com/sindresorhus/decamelize) - Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow.
-* [pad-left](https://github.com/jonschlinkert/pad-left) - Left pad a string with zeros or a specified string.
-* [to-camel-case](https://github.com/ianstormtaylor/to-camel-case) - Convert a string to a camel case.
-* [to-capital-case](https://github.com/ianstormtaylor/to-capital-case) - Convert a string to a capital case.
-* [to-constant-case](https://github.com/ianstormtaylor/to-constant-case) - Convert a string to a constant case.
-* [to-dot-case](https://github.com/ianstormtaylor/to-dot-case) - Convert a string to a dot case.
-* [to-no-case](https://github.com/ianstormtaylor/to-no-case) - Remove an existing case from a string.
-* [to-pascal-case](https://github.com/ianstormtaylor/to-pascal-case) - Convert a string to a pascal case.
-* [to-sentence-case](https://github.com/ianstormtaylor/to-sentence-case) - Convert a string to a sentence case.
-* [to-snake-case](https://github.com/ianstormtaylor/to-snake-case) - Convert a string to a snake case.
-* [to-space-case](https://github.com/ianstormtaylor/to-space-case) - Convert a string to a space case.
-* [to-title-case](https://github.com/ianstormtaylor/to-title-case) - Convert a string to a title case.
+* [decamelize](https://github.com/sindresorhus/decamelize) - 将驼峰化字符串转换为带有自定义分隔符的小写字符串: unicornRainbow → unicorn_rainbow.
+* [pad-left](https://github.com/jonschlinkert/pad-left) - 左填充带有0或指定字符的字符串.
+* [to-camel-case](https://github.com/ianstormtaylor/to-camel-case) - 将字符串转换为驼峰式.
+* [to-capital-case](https://github.com/ianstormtaylor/to-capital-case) - 将字符串转换为大写.
+* [to-constant-case](https://github.com/ianstormtaylor/to-constant-case) - 将字符串转换为常量.
+* [to-dot-case](https://github.com/ianstormtaylor/to-dot-case) - 将字符串用"."分割：camelCase → camel.case, space case → space.case, weird[case → weird.case.
+* [to-no-case](https://github.com/ianstormtaylor/to-no-case) - 替换字符串中的'_ -'分隔符为空格并小写,若为驼峰式则驼峰字符小写且驼峰处空格分割.
+* [to-pascal-case](https://github.com/ianstormtaylor/to-pascal-case) - 将空格'_ . ['等连接符连接的字符串转换为驼峰式且首字母大写.
+* [to-sentence-case](https://github.com/ianstormtaylor/to-sentence-case) - 字符串句首字母大写：the catcher, in the rye. → The catcher, in the rye.
+* [to-snake-case](https://github.com/ianstormtaylor/to-snake-case) - 将字符串用"_"分割：camelCase → camel_case, space case → space_case, weird[case → weird_case, dot.case → dot_case.
+* [to-space-case](https://github.com/ianstormtaylor/to-space-case) - 移除字符串中的特殊字符：camelCase → camel case, snake_case → snake case, dot.case → dot case, -RAnDom -jUNk$__loL! → random junk lol.
+* [to-title-case](https://github.com/ianstormtaylor/to-title-case) - Convert a string to a title case：the catcher in the rye → The Catcher in the Rye.
 * [node-slug](https://github.com/dodo/node-slug) - slugifies even utf-8 chars.
 * [rtrim](https://github.com/sergejmueller/rtrim) - Strip whitespace - or other characters - from the end of a string.
 * [slice.js](https://github.com/hustcc/slice.js) - Javascript library to engance String.substring / Array.slice with python slice style.
